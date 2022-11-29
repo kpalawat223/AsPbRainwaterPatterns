@@ -4,7 +4,15 @@
 Patterns of contamination and burden of lead and arsenic in rooftop harvested rainwater collected in Arizona environmental justice communities
 
 ### Description
-This repository includes community generated data from the University of Arizona's Project Harvest in partnership with the Sonora Environmental Research Institute (SERI). Data describe concentrations of dissolved arsenic (As) and lead (Pb) concentrations in rooftop harvested rainwater from Arizona environmental justice communities. Examples to analyze data via linear mixed models are also included. For more information see projectharvest.arizona.edu.
+This repository includes community generated data from the University of Arizona's Project Harvest in partnership with the Sonora Environmental Research Institute (SERI).
+
+SupplementalFile1.xlsx describe raw and corrected concentrations of dissolved arsenic (As) and lead (Pb) concentrations in Project Harvest (PH) rooftop harvested rainwater from Arizona environmental justice communities and National Atmospheric Deposition Program (NADP) wet-only deposition rainwater samples from around Arizona.
+
+SupplementalFile2.R provides code to correct the raw concentration data.
+
+SupplementalFile3.R provides example linear mixed models.
+
+For more information see projectharvest.arizona.edu.
 
 ### Prerequisites
 R/Rstudio
