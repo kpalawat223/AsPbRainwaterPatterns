@@ -22,7 +22,7 @@ https://github.com/kpalawat223/AsPbRainwaterPatterns/issues
 
 ### Citation
 paper:
-zenodo:
+zenodo:https://zenodo.org/badge/latestdoi/568965801
 
 ### Contact
 email mdramire@arizona.edu AND palawat.kunal@gmail.com with questions and comments.
