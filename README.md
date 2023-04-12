@@ -26,7 +26,7 @@ https://github.com/kpalawat223/AsPbRainwaterPatterns/issues
 ### Citation
 main paper: Palawat, K., Root, R. A., Cortez, L. I., Foley, T., Carella, V., Beck, C., Ramírez-Andreotta, M. D. Patterns of contamination and burden of lead and arsenic in rooftop harvested rainwater collected in Arizona environmental justice communities. Journal of Environmental Management. In Press. 
 
-data in brief: 
+data in brief: Palawat K, Root R, Cortez LI, Foley T, Carella V, Beck C, Ramírez-Andreotta MD. Dissolved arsenic and lead concentrations in rooftop harvested rainwater: community science generated dataset. In Press.
 
 zenodo:https://zenodo.org/badge/latestdoi/568965801
 
