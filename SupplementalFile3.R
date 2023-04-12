@@ -4,9 +4,9 @@
 #^Corresponding Author, mdramire@arizona.edu
 
 #Date Created: November 25, 2022
-#Date Last Edited: November 28, 2022
+#Date Last Edited: March 31st, 2023
 
-#Description: Code to analyze arsenic and lead concentrations in harvested rainwater compared to background rainwater concentrations.
+#Description: Code to analyze arsenic and lead concentrations in harvested rainwater compared to background rainwater concentrations. Final values may be slightly different from published values due to data privacy policies.
 
 #requires dataset "SupplementalFile1.xlsx"
 
@@ -29,7 +29,7 @@ dat <- rbind(ph, nadp)
 
 #As Final Model
 As_model <- lmer(data = dat,
-            log(arsenic) ~ community+period+season #natural log normalized data, fixed effects
+            log(arsenicCorrected) ~ community+period+season #natural log normalized data, fixed effects
             + (1|community:site), #site nested within community random effect
             REML = T) #restricted max likelihood method is better than max likelihood for estimates
 summary(As_model) #assess model summary, including estimates
@@ -39,7 +39,7 @@ plot(AllEffects(As_model)) #visualize model effects
 
 #Pb Final Model
 Pb_model <- lmer(data = dat,
-            log(lead) ~ community+season #natural log normalized data, fixed effects
+            log(leadCorrected) ~ community+season #natural log normalized data, fixed effects
             + (1|community:site), #site nested within community random effect
             REML = T) #restricted max likelihood method is better than max likelihood for estimates
 summary(Pb_model) #assess model summary, including estimates
